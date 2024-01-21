@@ -35,8 +35,6 @@ class WeatherPage extends StatelessWidget {
               ),
             ),
           ],
-          // backgroundColor: Colors.transparent,
-          // elevation: 0,
           title: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Row(

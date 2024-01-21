@@ -56,7 +56,7 @@ class _ShearchingWidgetState extends State<ShearchingWidget> {
               try {
                 // weatherModel =
                 //     await Weather_Services(Dio()).getWeather(cityName: value);
-                // log(weatherModel?.cityName ?? 'OOp');
+                // log(weatherModel?.cityName ?? 'OOPs');
                 var getWeatherCubit = BlocProvider.of<GetWeatherCubit>(context);
                 getWeatherCubit.fetchWeather(cityName: value);
                 Navigator.pop(context);
